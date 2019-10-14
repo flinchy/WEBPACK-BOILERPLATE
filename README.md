@@ -10,7 +10,7 @@ run this command
 
 this will save it as a dev dependencies
 
-create a script in package.json then you can run the script by running the command
+create a script in package.json then you can create a build  by running the command
 
 ```bash
 yarn build
