@@ -1,3 +1,5 @@
+# A simple webpack boilerplate
+
 ## How to install webpack cli
 
 run this command
@@ -8,7 +10,7 @@ run this command
 
 this will save it as a dev dependencies
 
-if you create a script in package.jsonmthen you can run the script by running the command
+create a script in package.json then you can run the script by running the command
 
 ```bash
 yarn build
