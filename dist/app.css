@@ -4,5 +4,8 @@
     display: inline-block;
     margin-left: 30px; }
     .navigation li:first-child {
-      margin: 0; }
+      color: red; }
+    .navigation li a {
+      text-decoration: none;
+      text-transform: uppercase; }
 
