@@ -1,5 +1,14 @@
-$body-color: red;
+$color-warning : yellow;
 
-body {
-    background-color: $body-color;
+.navigation {
+    background-color: $color-warning;
+
+    li {
+        display: inline-block;
+        margin-left: 30px;
+
+        &:first-child {
+            margin: 0;
+        }
+    }
 }
