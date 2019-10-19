@@ -1,7 +1,9 @@
 $color-warning : yellow;
+$color-text-dark: #333;
 
 .navigation {
     background-color: $color-warning;
+    float: left;
 
     li {
         display: inline-block;
@@ -10,5 +12,16 @@ $color-warning : yellow;
         &:first-child {
             margin: 0;
         }
+
+        a{
+            text-decoration: none;
+            text-transform: uppercase;
+            color: $color-text-dark;
+        }
+
     }
+}
+
+.buttons {
+    float: right;;
 }

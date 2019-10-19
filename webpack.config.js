@@ -2,7 +2,6 @@ const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
-  watch: true,
   watchOptions: {
     aggregateTimeout: 600,
     ignored: /node_modules/
@@ -22,7 +21,7 @@ module.exports = {
             options: {
               publicPath: (resourcePath, context) => {
                 return path.relative(path.dirname(resourcePath), context) + '/';
-                
+
               },
               hmr: process.env.NODE_ENV === 'development',
             },

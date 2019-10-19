@@ -1,8 +1,16 @@
 .navigation {
-  background-color: yellow; }
+  background-color: yellow;
+  float: left; }
   .navigation li {
     display: inline-block;
     margin-left: 30px; }
     .navigation li:first-child {
       margin: 0; }
+    .navigation li a {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #333; }
+
+.buttons {
+  float: right; }
 
