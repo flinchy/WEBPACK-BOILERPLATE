@@ -11,5 +11,3 @@ run this command
 ```bash
 yarn build
 ```
-
-to minify just change the mode in the webpack.config to production
