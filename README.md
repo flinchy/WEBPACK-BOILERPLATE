@@ -8,10 +8,6 @@ run this command
     yarn add --dev webpack webpack-cli
 ```
 
-this will save it as a dev dependencies
-
-create a script in package.json then you can create a build  by running the command
-
 ```bash
 yarn build
 ```
