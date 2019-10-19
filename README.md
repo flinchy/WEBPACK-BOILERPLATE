@@ -1,4 +1,4 @@
-# A simple webpack boilerplate
+# A simple webpack boilerplate Configuration
 
 ## How to install webpack cli
 
